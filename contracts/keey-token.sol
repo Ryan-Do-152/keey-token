@@ -95,9 +95,9 @@ contract BuyKEEYTokens {
         usdt = new USDT(0x06a728975026e69a59c38C3FE61ae8c81769a317,50000 *(10 ** 18));
 
         admin = msg.sender;
-        //giá keey/eth là 1 eth
+        //price keey/eth là 1 eth
         price = 1 *(10 ** 18);
-        //giá keey/usdt là 10000
+        //price keey/usdt là 10000
         priceKeeyUSDT = 10000 *(10 ** 18);
     }
 
